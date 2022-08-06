@@ -141,6 +141,7 @@ print("\nComputation using the outside function\n")
 
 for emp in employee_array_list:
     missed = calculate_missed_time2(emp.check_in, emp.check_out)
+
     if missed is None:
         print("It is sunday, Enjoy your time!")
     else:
@@ -151,6 +152,7 @@ print("\nComputation using the public function of the class Employee\n")
 
 for emp in employee_array_list:
     missed = emp.calculate_missed_time()
+
     if missed is None:
         print("It is sunday, Enjoy your time!")
     else:
